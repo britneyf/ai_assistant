@@ -15,7 +15,7 @@
    - Click on your service → "Variables" tab
    - Add:
      ```
-     OPENAI_API_KEY = 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
+     OPENAI_API_KEY = your-openai-api-key-here
      OPENAI_MODEL = gpt-4o-mini
      ```
 7. **Get your URL**: 
@@ -65,7 +65,7 @@ git push -u origin main
 7. **Add Environment Variables**:
    ```
    PYTHON_API_URL = https://your-railway-url.railway.app
-   OPENAI_API_KEY = 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
+   OPENAI_API_KEY = your-openai-api-key-here
    ```
    **Replace `your-railway-url` with your actual Railway URL!**
 8. **Click "Create Project"**
