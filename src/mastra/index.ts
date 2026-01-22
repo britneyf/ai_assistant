@@ -2,7 +2,7 @@ import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { LibSQLStore } from '@mastra/libsql';
 import { Observability, DefaultExporter, CloudExporter, SensitiveDataFilter } from '@mastra/observability';
-import { auditChatbotAgent } from './agents/audit-chatbot-agent';
+import { auditChatbotAgent } from './agents/audit-chatbot-agent.js';
 
 export const mastra = new Mastra({
   agents: { auditChatbotAgent },

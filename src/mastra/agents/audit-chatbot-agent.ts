@@ -1,6 +1,6 @@
 import { Agent } from '@mastra/core/agent';
 import { Memory } from '@mastra/memory';
-import { auditChatTool } from '../tools/audit-chat-tool';
+import { auditChatTool } from '../tools/audit-chat-tool.js';
 
 /**
  * Audit Chatbot Agent - Uses Python backend logic for querying audit data
