@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Mastra
+.mastra/
+node_modules/
+
+# Uploads and vector stores (can be regenerated)
+uploads/*
+!uploads/.gitkeep
+vector_stores/*
+!vector_stores/.gitkeep
+
+# Logs
+*.log
+
